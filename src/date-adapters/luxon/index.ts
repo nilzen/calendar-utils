@@ -60,7 +60,7 @@ export function adapterFactory(): DateAdapter {
 
   /* istanbul ignore next */
   function getMonth(date: Date | number): number {
-    return getDateTime(date).month;
+    return getDateTime(date).month - 1;
   }
 
   function isSameDay(
@@ -126,7 +126,11 @@ export function adapterFactory(): DateAdapter {
   }
 
   function getTimezoneOffset(date: Date | number): number {
-    return +getDateTime(date).toFormat('ZZ');
+    const pattern = /[0-9]+/g;
+    const tz = getDateTime(date).toFormat('ZZ');
+    const matches = tz.match(pattern);
+
+    return matches ? +matches[0] : 0;
   }
 
   function getDateTime(date: Date | number): DateTime {
