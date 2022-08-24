@@ -19508,6 +19508,4764 @@ Array [
 ]
 `;
 
+exports[`Adapter: luxon getAllDayWeekEvents should not throw when no params are passed 1`] = `Array []`;
+
+exports[`Adapter: luxon getWeekView should consistently create blocks of time of 40 minutes each 1`] = `
+Object {
+  "allDayEventRows": Array [],
+  "hourColumns": Array [
+    Object {
+      "date": "2016-06-27T00:00:00.000Z",
+      "events": Array [
+        Object {
+          "endsAfterDay": false,
+          "event": Object {
+            "end": "2016-06-26T17:40:00.000Z",
+            "start": "2016-06-26T15:20:00.000Z",
+            "title": "An event",
+          },
+          "height": NaN,
+          "left": -0,
+          "startsBeforeDay": true,
+          "top": 0,
+          "width": -0,
+        },
+      ],
+      "hours": Array [
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-27T14:00:00.000Z",
+              "displayDate": "2016-06-29T14:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-27T14:20:00.000Z",
+              "displayDate": "2016-06-29T14:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-27T14:40:00.000Z",
+              "displayDate": "2016-06-29T14:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-27T15:00:00.000Z",
+              "displayDate": "2016-06-29T15:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-27T15:20:00.000Z",
+              "displayDate": "2016-06-29T15:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-27T15:40:00.000Z",
+              "displayDate": "2016-06-29T15:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-27T16:00:00.000Z",
+              "displayDate": "2016-06-29T16:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-27T16:20:00.000Z",
+              "displayDate": "2016-06-29T16:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-27T16:40:00.000Z",
+              "displayDate": "2016-06-29T16:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-27T17:00:00.000Z",
+              "displayDate": "2016-06-29T17:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-27T17:20:00.000Z",
+              "displayDate": "2016-06-29T17:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-27T17:40:00.000Z",
+              "displayDate": "2016-06-29T17:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "date": "2016-06-28T00:00:00.000Z",
+      "events": Array [
+        Object {
+          "endsAfterDay": false,
+          "event": Object {
+            "end": "2016-06-26T17:40:00.000Z",
+            "start": "2016-06-26T15:20:00.000Z",
+            "title": "An event",
+          },
+          "height": NaN,
+          "left": -0,
+          "startsBeforeDay": true,
+          "top": 0,
+          "width": -0,
+        },
+      ],
+      "hours": Array [
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-28T14:00:00.000Z",
+              "displayDate": "2016-06-29T14:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-28T14:20:00.000Z",
+              "displayDate": "2016-06-29T14:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-28T14:40:00.000Z",
+              "displayDate": "2016-06-29T14:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-28T15:00:00.000Z",
+              "displayDate": "2016-06-29T15:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-28T15:20:00.000Z",
+              "displayDate": "2016-06-29T15:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-28T15:40:00.000Z",
+              "displayDate": "2016-06-29T15:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-28T16:00:00.000Z",
+              "displayDate": "2016-06-29T16:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-28T16:20:00.000Z",
+              "displayDate": "2016-06-29T16:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-28T16:40:00.000Z",
+              "displayDate": "2016-06-29T16:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-28T17:00:00.000Z",
+              "displayDate": "2016-06-29T17:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-28T17:20:00.000Z",
+              "displayDate": "2016-06-29T17:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-28T17:40:00.000Z",
+              "displayDate": "2016-06-29T17:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "date": "2016-06-29T00:00:00.000Z",
+      "events": Array [
+        Object {
+          "endsAfterDay": false,
+          "event": Object {
+            "end": "2016-06-26T17:40:00.000Z",
+            "start": "2016-06-26T15:20:00.000Z",
+            "title": "An event",
+          },
+          "height": NaN,
+          "left": -0,
+          "startsBeforeDay": true,
+          "top": 0,
+          "width": -0,
+        },
+      ],
+      "hours": Array [
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-29T14:00:00.000Z",
+              "displayDate": "2016-06-29T14:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-29T14:20:00.000Z",
+              "displayDate": "2016-06-29T14:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-29T14:40:00.000Z",
+              "displayDate": "2016-06-29T14:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-29T15:00:00.000Z",
+              "displayDate": "2016-06-29T15:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-29T15:20:00.000Z",
+              "displayDate": "2016-06-29T15:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-29T15:40:00.000Z",
+              "displayDate": "2016-06-29T15:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-29T16:00:00.000Z",
+              "displayDate": "2016-06-29T16:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-29T16:20:00.000Z",
+              "displayDate": "2016-06-29T16:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-29T16:40:00.000Z",
+              "displayDate": "2016-06-29T16:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-29T17:00:00.000Z",
+              "displayDate": "2016-06-29T17:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-29T17:20:00.000Z",
+              "displayDate": "2016-06-29T17:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-29T17:40:00.000Z",
+              "displayDate": "2016-06-29T17:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "date": "2016-06-30T00:00:00.000Z",
+      "events": Array [
+        Object {
+          "endsAfterDay": false,
+          "event": Object {
+            "end": "2016-06-26T17:40:00.000Z",
+            "start": "2016-06-26T15:20:00.000Z",
+            "title": "An event",
+          },
+          "height": NaN,
+          "left": -0,
+          "startsBeforeDay": true,
+          "top": 0,
+          "width": -0,
+        },
+      ],
+      "hours": Array [
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-30T14:00:00.000Z",
+              "displayDate": "2016-06-29T14:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-30T14:20:00.000Z",
+              "displayDate": "2016-06-29T14:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-30T14:40:00.000Z",
+              "displayDate": "2016-06-29T14:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-30T15:00:00.000Z",
+              "displayDate": "2016-06-29T15:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-30T15:20:00.000Z",
+              "displayDate": "2016-06-29T15:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-30T15:40:00.000Z",
+              "displayDate": "2016-06-29T15:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-30T16:00:00.000Z",
+              "displayDate": "2016-06-29T16:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-30T16:20:00.000Z",
+              "displayDate": "2016-06-29T16:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-30T16:40:00.000Z",
+              "displayDate": "2016-06-29T16:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-30T17:00:00.000Z",
+              "displayDate": "2016-06-29T17:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-06-30T17:20:00.000Z",
+              "displayDate": "2016-06-29T17:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-06-30T17:40:00.000Z",
+              "displayDate": "2016-06-29T17:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "date": "2016-07-01T00:00:00.000Z",
+      "events": Array [
+        Object {
+          "endsAfterDay": false,
+          "event": Object {
+            "end": "2016-06-26T17:40:00.000Z",
+            "start": "2016-06-26T15:20:00.000Z",
+            "title": "An event",
+          },
+          "height": NaN,
+          "left": -0,
+          "startsBeforeDay": true,
+          "top": 0,
+          "width": -0,
+        },
+      ],
+      "hours": Array [
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-01T14:00:00.000Z",
+              "displayDate": "2016-06-29T14:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-01T14:20:00.000Z",
+              "displayDate": "2016-06-29T14:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-01T14:40:00.000Z",
+              "displayDate": "2016-06-29T14:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-01T15:00:00.000Z",
+              "displayDate": "2016-06-29T15:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-01T15:20:00.000Z",
+              "displayDate": "2016-06-29T15:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-01T15:40:00.000Z",
+              "displayDate": "2016-06-29T15:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-01T16:00:00.000Z",
+              "displayDate": "2016-06-29T16:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-01T16:20:00.000Z",
+              "displayDate": "2016-06-29T16:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-01T16:40:00.000Z",
+              "displayDate": "2016-06-29T16:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-01T17:00:00.000Z",
+              "displayDate": "2016-06-29T17:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-01T17:20:00.000Z",
+              "displayDate": "2016-06-29T17:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-01T17:40:00.000Z",
+              "displayDate": "2016-06-29T17:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "date": "2016-07-02T00:00:00.000Z",
+      "events": Array [
+        Object {
+          "endsAfterDay": false,
+          "event": Object {
+            "end": "2016-06-26T17:40:00.000Z",
+            "start": "2016-06-26T15:20:00.000Z",
+            "title": "An event",
+          },
+          "height": NaN,
+          "left": -0,
+          "startsBeforeDay": true,
+          "top": 0,
+          "width": -0,
+        },
+      ],
+      "hours": Array [
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-02T14:00:00.000Z",
+              "displayDate": "2016-06-29T14:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-02T14:20:00.000Z",
+              "displayDate": "2016-06-29T14:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-02T14:40:00.000Z",
+              "displayDate": "2016-06-29T14:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-02T15:00:00.000Z",
+              "displayDate": "2016-06-29T15:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-02T15:20:00.000Z",
+              "displayDate": "2016-06-29T15:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-02T15:40:00.000Z",
+              "displayDate": "2016-06-29T15:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-02T16:00:00.000Z",
+              "displayDate": "2016-06-29T16:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-02T16:20:00.000Z",
+              "displayDate": "2016-06-29T16:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-02T16:40:00.000Z",
+              "displayDate": "2016-06-29T16:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-02T17:00:00.000Z",
+              "displayDate": "2016-06-29T17:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-02T17:20:00.000Z",
+              "displayDate": "2016-06-29T17:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-02T17:40:00.000Z",
+              "displayDate": "2016-06-29T17:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "date": "2016-07-03T00:00:00.000Z",
+      "events": Array [
+        Object {
+          "endsAfterDay": false,
+          "event": Object {
+            "end": "2016-06-26T17:40:00.000Z",
+            "start": "2016-06-26T15:20:00.000Z",
+            "title": "An event",
+          },
+          "height": NaN,
+          "left": -0,
+          "startsBeforeDay": true,
+          "top": 0,
+          "width": -0,
+        },
+      ],
+      "hours": Array [
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-03T14:00:00.000Z",
+              "displayDate": "2016-06-29T14:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-03T14:20:00.000Z",
+              "displayDate": "2016-06-29T14:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-03T14:40:00.000Z",
+              "displayDate": "2016-06-29T14:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-03T15:00:00.000Z",
+              "displayDate": "2016-06-29T15:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-03T15:20:00.000Z",
+              "displayDate": "2016-06-29T15:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-03T15:40:00.000Z",
+              "displayDate": "2016-06-29T15:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-03T16:00:00.000Z",
+              "displayDate": "2016-06-29T16:00:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-03T16:20:00.000Z",
+              "displayDate": "2016-06-29T16:20:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-03T16:40:00.000Z",
+              "displayDate": "2016-06-29T16:40:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-03T17:00:00.000Z",
+              "displayDate": "2016-06-29T17:00:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+        Object {
+          "segments": Array [
+            Object {
+              "date": "2016-07-03T17:20:00.000Z",
+              "displayDate": "2016-06-29T17:20:00.000Z",
+              "isStart": true,
+            },
+            Object {
+              "date": "2016-07-03T17:40:00.000Z",
+              "displayDate": "2016-06-29T17:40:00.000Z",
+              "isStart": false,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+  "period": Object {
+    "end": "2016-07-03T23:59:59.999Z",
+    "events": Array [
+      Object {
+        "end": "2016-06-26T17:40:00.000Z",
+        "start": "2016-06-26T15:20:00.000Z",
+        "title": "An event",
+      },
+    ],
+    "start": "2016-06-27T00:00:00.000Z",
+  },
+}
+`;
+
+exports[`Adapter: luxon getWeekView should get the day view segments respecting the start and end of the day 1`] = `
+Array [
+  Object {
+    "date": "2016-06-27T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-28T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-29T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-30T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-01T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-02T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-03T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`Adapter: luxon getWeekView should get the hour view segments respecting the start and end of the day 1`] = `
+Array [
+  Object {
+    "date": "2016-06-27T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-28T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-29T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-30T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-01T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-02T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-03T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`Adapter: luxon getWeekView should get the hour view segments with a bigger segment size 1`] = `
+Array [
+  Object {
+    "date": "2016-06-27T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T01:45:00.000Z",
+            "displayDate": "2016-06-29T01:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-27T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-27T02:15:00.000Z",
+            "displayDate": "2016-06-29T02:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T02:45:00.000Z",
+            "displayDate": "2016-06-29T02:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-27T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-27T03:15:00.000Z",
+            "displayDate": "2016-06-29T03:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T03:45:00.000Z",
+            "displayDate": "2016-06-29T03:45:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-28T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T01:45:00.000Z",
+            "displayDate": "2016-06-29T01:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-28T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-28T02:15:00.000Z",
+            "displayDate": "2016-06-29T02:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T02:45:00.000Z",
+            "displayDate": "2016-06-29T02:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-28T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-28T03:15:00.000Z",
+            "displayDate": "2016-06-29T03:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T03:45:00.000Z",
+            "displayDate": "2016-06-29T03:45:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-29T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T01:45:00.000Z",
+            "displayDate": "2016-06-29T01:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-29T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-29T02:15:00.000Z",
+            "displayDate": "2016-06-29T02:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T02:45:00.000Z",
+            "displayDate": "2016-06-29T02:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-29T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-29T03:15:00.000Z",
+            "displayDate": "2016-06-29T03:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T03:45:00.000Z",
+            "displayDate": "2016-06-29T03:45:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-30T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T01:45:00.000Z",
+            "displayDate": "2016-06-29T01:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-30T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-30T02:15:00.000Z",
+            "displayDate": "2016-06-29T02:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T02:45:00.000Z",
+            "displayDate": "2016-06-29T02:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-30T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-06-30T03:15:00.000Z",
+            "displayDate": "2016-06-29T03:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T03:45:00.000Z",
+            "displayDate": "2016-06-29T03:45:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-01T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T01:45:00.000Z",
+            "displayDate": "2016-06-29T01:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-01T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-01T02:15:00.000Z",
+            "displayDate": "2016-06-29T02:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T02:45:00.000Z",
+            "displayDate": "2016-06-29T02:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-01T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-01T03:15:00.000Z",
+            "displayDate": "2016-06-29T03:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T03:45:00.000Z",
+            "displayDate": "2016-06-29T03:45:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-02T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T01:45:00.000Z",
+            "displayDate": "2016-06-29T01:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-02T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-02T02:15:00.000Z",
+            "displayDate": "2016-06-29T02:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T02:45:00.000Z",
+            "displayDate": "2016-06-29T02:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-02T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-02T03:15:00.000Z",
+            "displayDate": "2016-06-29T03:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T03:45:00.000Z",
+            "displayDate": "2016-06-29T03:45:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-03T00:00:00.000Z",
+    "events": Array [],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T01:45:00.000Z",
+            "displayDate": "2016-06-29T01:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-03T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-03T02:15:00.000Z",
+            "displayDate": "2016-06-29T02:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T02:45:00.000Z",
+            "displayDate": "2016-06-29T02:45:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-03T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": false,
+          },
+          Object {
+            "date": "2016-07-03T03:15:00.000Z",
+            "displayDate": "2016-06-29T03:15:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T03:45:00.000Z",
+            "displayDate": "2016-06-29T03:45:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`Adapter: luxon getWeekView should position events as percentages in columns 1`] = `
+Array [
+  Object {
+    "date": "2016-06-27T00:00:00.000Z",
+    "events": Array [
+      Object {
+        "endsAfterDay": true,
+        "event": Object {
+          "end": "2016-06-28T16:00:00.000Z",
+          "start": "2016-06-27T00:00:00.000Z",
+          "title": "Column 1",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": false,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": true,
+        "event": Object {
+          "end": "2016-06-28T00:30:00.000Z",
+          "start": "2016-06-28T00:00:00.000Z",
+          "title": "Column 2 a",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": false,
+        "top": NaN,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": true,
+        "event": Object {
+          "end": "2016-06-28T14:00:00.000Z",
+          "start": "2016-06-28T02:00:00.000Z",
+          "title": "Column 2 b",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": false,
+        "top": NaN,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": true,
+        "event": Object {
+          "end": "2016-06-28T18:00:00.000Z",
+          "start": "2016-06-28T17:00:00.000Z",
+          "title": "Column 1 and column 2",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": false,
+        "top": NaN,
+        "width": -0,
+      },
+    ],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T00:00:00.000Z",
+            "displayDate": "2016-06-29T00:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T00:30:00.000Z",
+            "displayDate": "2016-06-29T00:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T01:00:00.000Z",
+            "displayDate": "2016-06-29T01:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T04:00:00.000Z",
+            "displayDate": "2016-06-29T04:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T04:30:00.000Z",
+            "displayDate": "2016-06-29T04:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T05:00:00.000Z",
+            "displayDate": "2016-06-29T05:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T05:30:00.000Z",
+            "displayDate": "2016-06-29T05:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T06:00:00.000Z",
+            "displayDate": "2016-06-29T06:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T06:30:00.000Z",
+            "displayDate": "2016-06-29T06:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T07:00:00.000Z",
+            "displayDate": "2016-06-29T07:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T07:30:00.000Z",
+            "displayDate": "2016-06-29T07:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T08:00:00.000Z",
+            "displayDate": "2016-06-29T08:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T08:30:00.000Z",
+            "displayDate": "2016-06-29T08:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T09:00:00.000Z",
+            "displayDate": "2016-06-29T09:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T09:30:00.000Z",
+            "displayDate": "2016-06-29T09:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T10:00:00.000Z",
+            "displayDate": "2016-06-29T10:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T10:30:00.000Z",
+            "displayDate": "2016-06-29T10:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T11:00:00.000Z",
+            "displayDate": "2016-06-29T11:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T11:30:00.000Z",
+            "displayDate": "2016-06-29T11:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T12:00:00.000Z",
+            "displayDate": "2016-06-29T12:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T12:30:00.000Z",
+            "displayDate": "2016-06-29T12:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T13:00:00.000Z",
+            "displayDate": "2016-06-29T13:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T13:30:00.000Z",
+            "displayDate": "2016-06-29T13:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T14:00:00.000Z",
+            "displayDate": "2016-06-29T14:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T14:30:00.000Z",
+            "displayDate": "2016-06-29T14:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T15:00:00.000Z",
+            "displayDate": "2016-06-29T15:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T15:30:00.000Z",
+            "displayDate": "2016-06-29T15:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T16:00:00.000Z",
+            "displayDate": "2016-06-29T16:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T16:30:00.000Z",
+            "displayDate": "2016-06-29T16:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T17:00:00.000Z",
+            "displayDate": "2016-06-29T17:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T17:30:00.000Z",
+            "displayDate": "2016-06-29T17:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T18:00:00.000Z",
+            "displayDate": "2016-06-29T18:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T18:30:00.000Z",
+            "displayDate": "2016-06-29T18:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T19:00:00.000Z",
+            "displayDate": "2016-06-29T19:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T19:30:00.000Z",
+            "displayDate": "2016-06-29T19:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T20:00:00.000Z",
+            "displayDate": "2016-06-29T20:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T20:30:00.000Z",
+            "displayDate": "2016-06-29T20:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T21:00:00.000Z",
+            "displayDate": "2016-06-29T21:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T21:30:00.000Z",
+            "displayDate": "2016-06-29T21:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T22:00:00.000Z",
+            "displayDate": "2016-06-29T22:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T22:30:00.000Z",
+            "displayDate": "2016-06-29T22:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-27T23:00:00.000Z",
+            "displayDate": "2016-06-29T23:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-27T23:30:00.000Z",
+            "displayDate": "2016-06-29T23:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-28T00:00:00.000Z",
+    "events": Array [
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T16:00:00.000Z",
+          "start": "2016-06-27T00:00:00.000Z",
+          "title": "Column 1",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T00:30:00.000Z",
+          "start": "2016-06-28T00:00:00.000Z",
+          "title": "Column 2 a",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": false,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T14:00:00.000Z",
+          "start": "2016-06-28T02:00:00.000Z",
+          "title": "Column 2 b",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": false,
+        "top": NaN,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T18:00:00.000Z",
+          "start": "2016-06-28T17:00:00.000Z",
+          "title": "Column 1 and column 2",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": false,
+        "top": NaN,
+        "width": -0,
+      },
+    ],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T00:00:00.000Z",
+            "displayDate": "2016-06-29T00:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T00:30:00.000Z",
+            "displayDate": "2016-06-29T00:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T01:00:00.000Z",
+            "displayDate": "2016-06-29T01:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T04:00:00.000Z",
+            "displayDate": "2016-06-29T04:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T04:30:00.000Z",
+            "displayDate": "2016-06-29T04:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T05:00:00.000Z",
+            "displayDate": "2016-06-29T05:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T05:30:00.000Z",
+            "displayDate": "2016-06-29T05:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T06:00:00.000Z",
+            "displayDate": "2016-06-29T06:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T06:30:00.000Z",
+            "displayDate": "2016-06-29T06:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T07:00:00.000Z",
+            "displayDate": "2016-06-29T07:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T07:30:00.000Z",
+            "displayDate": "2016-06-29T07:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T08:00:00.000Z",
+            "displayDate": "2016-06-29T08:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T08:30:00.000Z",
+            "displayDate": "2016-06-29T08:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T09:00:00.000Z",
+            "displayDate": "2016-06-29T09:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T09:30:00.000Z",
+            "displayDate": "2016-06-29T09:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T10:00:00.000Z",
+            "displayDate": "2016-06-29T10:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T10:30:00.000Z",
+            "displayDate": "2016-06-29T10:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T11:00:00.000Z",
+            "displayDate": "2016-06-29T11:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T11:30:00.000Z",
+            "displayDate": "2016-06-29T11:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T12:00:00.000Z",
+            "displayDate": "2016-06-29T12:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T12:30:00.000Z",
+            "displayDate": "2016-06-29T12:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T13:00:00.000Z",
+            "displayDate": "2016-06-29T13:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T13:30:00.000Z",
+            "displayDate": "2016-06-29T13:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T14:00:00.000Z",
+            "displayDate": "2016-06-29T14:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T14:30:00.000Z",
+            "displayDate": "2016-06-29T14:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T15:00:00.000Z",
+            "displayDate": "2016-06-29T15:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T15:30:00.000Z",
+            "displayDate": "2016-06-29T15:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T16:00:00.000Z",
+            "displayDate": "2016-06-29T16:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T16:30:00.000Z",
+            "displayDate": "2016-06-29T16:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T17:00:00.000Z",
+            "displayDate": "2016-06-29T17:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T17:30:00.000Z",
+            "displayDate": "2016-06-29T17:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T18:00:00.000Z",
+            "displayDate": "2016-06-29T18:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T18:30:00.000Z",
+            "displayDate": "2016-06-29T18:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T19:00:00.000Z",
+            "displayDate": "2016-06-29T19:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T19:30:00.000Z",
+            "displayDate": "2016-06-29T19:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T20:00:00.000Z",
+            "displayDate": "2016-06-29T20:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T20:30:00.000Z",
+            "displayDate": "2016-06-29T20:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T21:00:00.000Z",
+            "displayDate": "2016-06-29T21:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T21:30:00.000Z",
+            "displayDate": "2016-06-29T21:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T22:00:00.000Z",
+            "displayDate": "2016-06-29T22:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T22:30:00.000Z",
+            "displayDate": "2016-06-29T22:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-28T23:00:00.000Z",
+            "displayDate": "2016-06-29T23:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-28T23:30:00.000Z",
+            "displayDate": "2016-06-29T23:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-29T00:00:00.000Z",
+    "events": Array [
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T16:00:00.000Z",
+          "start": "2016-06-27T00:00:00.000Z",
+          "title": "Column 1",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T00:30:00.000Z",
+          "start": "2016-06-28T00:00:00.000Z",
+          "title": "Column 2 a",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T14:00:00.000Z",
+          "start": "2016-06-28T02:00:00.000Z",
+          "title": "Column 2 b",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T18:00:00.000Z",
+          "start": "2016-06-28T17:00:00.000Z",
+          "title": "Column 1 and column 2",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+    ],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T00:00:00.000Z",
+            "displayDate": "2016-06-29T00:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T00:30:00.000Z",
+            "displayDate": "2016-06-29T00:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T01:00:00.000Z",
+            "displayDate": "2016-06-29T01:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T04:00:00.000Z",
+            "displayDate": "2016-06-29T04:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T04:30:00.000Z",
+            "displayDate": "2016-06-29T04:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T05:00:00.000Z",
+            "displayDate": "2016-06-29T05:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T05:30:00.000Z",
+            "displayDate": "2016-06-29T05:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T06:00:00.000Z",
+            "displayDate": "2016-06-29T06:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T06:30:00.000Z",
+            "displayDate": "2016-06-29T06:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T07:00:00.000Z",
+            "displayDate": "2016-06-29T07:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T07:30:00.000Z",
+            "displayDate": "2016-06-29T07:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T08:00:00.000Z",
+            "displayDate": "2016-06-29T08:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T08:30:00.000Z",
+            "displayDate": "2016-06-29T08:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T09:00:00.000Z",
+            "displayDate": "2016-06-29T09:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T09:30:00.000Z",
+            "displayDate": "2016-06-29T09:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T10:00:00.000Z",
+            "displayDate": "2016-06-29T10:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T10:30:00.000Z",
+            "displayDate": "2016-06-29T10:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T11:00:00.000Z",
+            "displayDate": "2016-06-29T11:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T11:30:00.000Z",
+            "displayDate": "2016-06-29T11:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T12:00:00.000Z",
+            "displayDate": "2016-06-29T12:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T12:30:00.000Z",
+            "displayDate": "2016-06-29T12:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T13:00:00.000Z",
+            "displayDate": "2016-06-29T13:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T13:30:00.000Z",
+            "displayDate": "2016-06-29T13:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T14:00:00.000Z",
+            "displayDate": "2016-06-29T14:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T14:30:00.000Z",
+            "displayDate": "2016-06-29T14:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T15:00:00.000Z",
+            "displayDate": "2016-06-29T15:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T15:30:00.000Z",
+            "displayDate": "2016-06-29T15:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T16:00:00.000Z",
+            "displayDate": "2016-06-29T16:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T16:30:00.000Z",
+            "displayDate": "2016-06-29T16:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T17:00:00.000Z",
+            "displayDate": "2016-06-29T17:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T17:30:00.000Z",
+            "displayDate": "2016-06-29T17:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T18:00:00.000Z",
+            "displayDate": "2016-06-29T18:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T18:30:00.000Z",
+            "displayDate": "2016-06-29T18:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T19:00:00.000Z",
+            "displayDate": "2016-06-29T19:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T19:30:00.000Z",
+            "displayDate": "2016-06-29T19:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T20:00:00.000Z",
+            "displayDate": "2016-06-29T20:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T20:30:00.000Z",
+            "displayDate": "2016-06-29T20:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T21:00:00.000Z",
+            "displayDate": "2016-06-29T21:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T21:30:00.000Z",
+            "displayDate": "2016-06-29T21:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T22:00:00.000Z",
+            "displayDate": "2016-06-29T22:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T22:30:00.000Z",
+            "displayDate": "2016-06-29T22:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-29T23:00:00.000Z",
+            "displayDate": "2016-06-29T23:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-29T23:30:00.000Z",
+            "displayDate": "2016-06-29T23:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-06-30T00:00:00.000Z",
+    "events": Array [
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T16:00:00.000Z",
+          "start": "2016-06-27T00:00:00.000Z",
+          "title": "Column 1",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T00:30:00.000Z",
+          "start": "2016-06-28T00:00:00.000Z",
+          "title": "Column 2 a",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T14:00:00.000Z",
+          "start": "2016-06-28T02:00:00.000Z",
+          "title": "Column 2 b",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T18:00:00.000Z",
+          "start": "2016-06-28T17:00:00.000Z",
+          "title": "Column 1 and column 2",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+    ],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T00:00:00.000Z",
+            "displayDate": "2016-06-29T00:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T00:30:00.000Z",
+            "displayDate": "2016-06-29T00:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T01:00:00.000Z",
+            "displayDate": "2016-06-29T01:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T04:00:00.000Z",
+            "displayDate": "2016-06-29T04:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T04:30:00.000Z",
+            "displayDate": "2016-06-29T04:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T05:00:00.000Z",
+            "displayDate": "2016-06-29T05:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T05:30:00.000Z",
+            "displayDate": "2016-06-29T05:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T06:00:00.000Z",
+            "displayDate": "2016-06-29T06:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T06:30:00.000Z",
+            "displayDate": "2016-06-29T06:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T07:00:00.000Z",
+            "displayDate": "2016-06-29T07:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T07:30:00.000Z",
+            "displayDate": "2016-06-29T07:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T08:00:00.000Z",
+            "displayDate": "2016-06-29T08:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T08:30:00.000Z",
+            "displayDate": "2016-06-29T08:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T09:00:00.000Z",
+            "displayDate": "2016-06-29T09:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T09:30:00.000Z",
+            "displayDate": "2016-06-29T09:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T10:00:00.000Z",
+            "displayDate": "2016-06-29T10:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T10:30:00.000Z",
+            "displayDate": "2016-06-29T10:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T11:00:00.000Z",
+            "displayDate": "2016-06-29T11:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T11:30:00.000Z",
+            "displayDate": "2016-06-29T11:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T12:00:00.000Z",
+            "displayDate": "2016-06-29T12:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T12:30:00.000Z",
+            "displayDate": "2016-06-29T12:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T13:00:00.000Z",
+            "displayDate": "2016-06-29T13:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T13:30:00.000Z",
+            "displayDate": "2016-06-29T13:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T14:00:00.000Z",
+            "displayDate": "2016-06-29T14:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T14:30:00.000Z",
+            "displayDate": "2016-06-29T14:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T15:00:00.000Z",
+            "displayDate": "2016-06-29T15:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T15:30:00.000Z",
+            "displayDate": "2016-06-29T15:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T16:00:00.000Z",
+            "displayDate": "2016-06-29T16:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T16:30:00.000Z",
+            "displayDate": "2016-06-29T16:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T17:00:00.000Z",
+            "displayDate": "2016-06-29T17:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T17:30:00.000Z",
+            "displayDate": "2016-06-29T17:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T18:00:00.000Z",
+            "displayDate": "2016-06-29T18:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T18:30:00.000Z",
+            "displayDate": "2016-06-29T18:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T19:00:00.000Z",
+            "displayDate": "2016-06-29T19:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T19:30:00.000Z",
+            "displayDate": "2016-06-29T19:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T20:00:00.000Z",
+            "displayDate": "2016-06-29T20:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T20:30:00.000Z",
+            "displayDate": "2016-06-29T20:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T21:00:00.000Z",
+            "displayDate": "2016-06-29T21:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T21:30:00.000Z",
+            "displayDate": "2016-06-29T21:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T22:00:00.000Z",
+            "displayDate": "2016-06-29T22:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T22:30:00.000Z",
+            "displayDate": "2016-06-29T22:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-06-30T23:00:00.000Z",
+            "displayDate": "2016-06-29T23:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-06-30T23:30:00.000Z",
+            "displayDate": "2016-06-29T23:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-01T00:00:00.000Z",
+    "events": Array [
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T16:00:00.000Z",
+          "start": "2016-06-27T00:00:00.000Z",
+          "title": "Column 1",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T00:30:00.000Z",
+          "start": "2016-06-28T00:00:00.000Z",
+          "title": "Column 2 a",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T14:00:00.000Z",
+          "start": "2016-06-28T02:00:00.000Z",
+          "title": "Column 2 b",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T18:00:00.000Z",
+          "start": "2016-06-28T17:00:00.000Z",
+          "title": "Column 1 and column 2",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+    ],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T00:00:00.000Z",
+            "displayDate": "2016-06-29T00:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T00:30:00.000Z",
+            "displayDate": "2016-06-29T00:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T01:00:00.000Z",
+            "displayDate": "2016-06-29T01:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T04:00:00.000Z",
+            "displayDate": "2016-06-29T04:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T04:30:00.000Z",
+            "displayDate": "2016-06-29T04:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T05:00:00.000Z",
+            "displayDate": "2016-06-29T05:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T05:30:00.000Z",
+            "displayDate": "2016-06-29T05:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T06:00:00.000Z",
+            "displayDate": "2016-06-29T06:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T06:30:00.000Z",
+            "displayDate": "2016-06-29T06:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T07:00:00.000Z",
+            "displayDate": "2016-06-29T07:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T07:30:00.000Z",
+            "displayDate": "2016-06-29T07:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T08:00:00.000Z",
+            "displayDate": "2016-06-29T08:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T08:30:00.000Z",
+            "displayDate": "2016-06-29T08:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T09:00:00.000Z",
+            "displayDate": "2016-06-29T09:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T09:30:00.000Z",
+            "displayDate": "2016-06-29T09:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T10:00:00.000Z",
+            "displayDate": "2016-06-29T10:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T10:30:00.000Z",
+            "displayDate": "2016-06-29T10:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T11:00:00.000Z",
+            "displayDate": "2016-06-29T11:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T11:30:00.000Z",
+            "displayDate": "2016-06-29T11:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T12:00:00.000Z",
+            "displayDate": "2016-06-29T12:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T12:30:00.000Z",
+            "displayDate": "2016-06-29T12:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T13:00:00.000Z",
+            "displayDate": "2016-06-29T13:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T13:30:00.000Z",
+            "displayDate": "2016-06-29T13:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T14:00:00.000Z",
+            "displayDate": "2016-06-29T14:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T14:30:00.000Z",
+            "displayDate": "2016-06-29T14:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T15:00:00.000Z",
+            "displayDate": "2016-06-29T15:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T15:30:00.000Z",
+            "displayDate": "2016-06-29T15:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T16:00:00.000Z",
+            "displayDate": "2016-06-29T16:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T16:30:00.000Z",
+            "displayDate": "2016-06-29T16:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T17:00:00.000Z",
+            "displayDate": "2016-06-29T17:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T17:30:00.000Z",
+            "displayDate": "2016-06-29T17:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T18:00:00.000Z",
+            "displayDate": "2016-06-29T18:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T18:30:00.000Z",
+            "displayDate": "2016-06-29T18:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T19:00:00.000Z",
+            "displayDate": "2016-06-29T19:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T19:30:00.000Z",
+            "displayDate": "2016-06-29T19:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T20:00:00.000Z",
+            "displayDate": "2016-06-29T20:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T20:30:00.000Z",
+            "displayDate": "2016-06-29T20:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T21:00:00.000Z",
+            "displayDate": "2016-06-29T21:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T21:30:00.000Z",
+            "displayDate": "2016-06-29T21:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T22:00:00.000Z",
+            "displayDate": "2016-06-29T22:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T22:30:00.000Z",
+            "displayDate": "2016-06-29T22:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-01T23:00:00.000Z",
+            "displayDate": "2016-06-29T23:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-01T23:30:00.000Z",
+            "displayDate": "2016-06-29T23:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-02T00:00:00.000Z",
+    "events": Array [
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T16:00:00.000Z",
+          "start": "2016-06-27T00:00:00.000Z",
+          "title": "Column 1",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T00:30:00.000Z",
+          "start": "2016-06-28T00:00:00.000Z",
+          "title": "Column 2 a",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T14:00:00.000Z",
+          "start": "2016-06-28T02:00:00.000Z",
+          "title": "Column 2 b",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T18:00:00.000Z",
+          "start": "2016-06-28T17:00:00.000Z",
+          "title": "Column 1 and column 2",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+    ],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T00:00:00.000Z",
+            "displayDate": "2016-06-29T00:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T00:30:00.000Z",
+            "displayDate": "2016-06-29T00:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T01:00:00.000Z",
+            "displayDate": "2016-06-29T01:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T04:00:00.000Z",
+            "displayDate": "2016-06-29T04:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T04:30:00.000Z",
+            "displayDate": "2016-06-29T04:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T05:00:00.000Z",
+            "displayDate": "2016-06-29T05:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T05:30:00.000Z",
+            "displayDate": "2016-06-29T05:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T06:00:00.000Z",
+            "displayDate": "2016-06-29T06:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T06:30:00.000Z",
+            "displayDate": "2016-06-29T06:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T07:00:00.000Z",
+            "displayDate": "2016-06-29T07:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T07:30:00.000Z",
+            "displayDate": "2016-06-29T07:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T08:00:00.000Z",
+            "displayDate": "2016-06-29T08:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T08:30:00.000Z",
+            "displayDate": "2016-06-29T08:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T09:00:00.000Z",
+            "displayDate": "2016-06-29T09:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T09:30:00.000Z",
+            "displayDate": "2016-06-29T09:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T10:00:00.000Z",
+            "displayDate": "2016-06-29T10:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T10:30:00.000Z",
+            "displayDate": "2016-06-29T10:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T11:00:00.000Z",
+            "displayDate": "2016-06-29T11:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T11:30:00.000Z",
+            "displayDate": "2016-06-29T11:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T12:00:00.000Z",
+            "displayDate": "2016-06-29T12:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T12:30:00.000Z",
+            "displayDate": "2016-06-29T12:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T13:00:00.000Z",
+            "displayDate": "2016-06-29T13:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T13:30:00.000Z",
+            "displayDate": "2016-06-29T13:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T14:00:00.000Z",
+            "displayDate": "2016-06-29T14:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T14:30:00.000Z",
+            "displayDate": "2016-06-29T14:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T15:00:00.000Z",
+            "displayDate": "2016-06-29T15:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T15:30:00.000Z",
+            "displayDate": "2016-06-29T15:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T16:00:00.000Z",
+            "displayDate": "2016-06-29T16:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T16:30:00.000Z",
+            "displayDate": "2016-06-29T16:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T17:00:00.000Z",
+            "displayDate": "2016-06-29T17:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T17:30:00.000Z",
+            "displayDate": "2016-06-29T17:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T18:00:00.000Z",
+            "displayDate": "2016-06-29T18:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T18:30:00.000Z",
+            "displayDate": "2016-06-29T18:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T19:00:00.000Z",
+            "displayDate": "2016-06-29T19:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T19:30:00.000Z",
+            "displayDate": "2016-06-29T19:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T20:00:00.000Z",
+            "displayDate": "2016-06-29T20:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T20:30:00.000Z",
+            "displayDate": "2016-06-29T20:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T21:00:00.000Z",
+            "displayDate": "2016-06-29T21:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T21:30:00.000Z",
+            "displayDate": "2016-06-29T21:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T22:00:00.000Z",
+            "displayDate": "2016-06-29T22:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T22:30:00.000Z",
+            "displayDate": "2016-06-29T22:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-02T23:00:00.000Z",
+            "displayDate": "2016-06-29T23:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-02T23:30:00.000Z",
+            "displayDate": "2016-06-29T23:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "date": "2016-07-03T00:00:00.000Z",
+    "events": Array [
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T16:00:00.000Z",
+          "start": "2016-06-27T00:00:00.000Z",
+          "title": "Column 1",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T00:30:00.000Z",
+          "start": "2016-06-28T00:00:00.000Z",
+          "title": "Column 2 a",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T14:00:00.000Z",
+          "start": "2016-06-28T02:00:00.000Z",
+          "title": "Column 2 b",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+      Object {
+        "endsAfterDay": false,
+        "event": Object {
+          "end": "2016-06-28T18:00:00.000Z",
+          "start": "2016-06-28T17:00:00.000Z",
+          "title": "Column 1 and column 2",
+        },
+        "height": NaN,
+        "left": -0,
+        "startsBeforeDay": true,
+        "top": 0,
+        "width": -0,
+      },
+    ],
+    "hours": Array [
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T00:00:00.000Z",
+            "displayDate": "2016-06-29T00:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T00:30:00.000Z",
+            "displayDate": "2016-06-29T00:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T01:00:00.000Z",
+            "displayDate": "2016-06-29T01:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T01:30:00.000Z",
+            "displayDate": "2016-06-29T01:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T02:00:00.000Z",
+            "displayDate": "2016-06-29T02:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T02:30:00.000Z",
+            "displayDate": "2016-06-29T02:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T03:00:00.000Z",
+            "displayDate": "2016-06-29T03:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T03:30:00.000Z",
+            "displayDate": "2016-06-29T03:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T04:00:00.000Z",
+            "displayDate": "2016-06-29T04:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T04:30:00.000Z",
+            "displayDate": "2016-06-29T04:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T05:00:00.000Z",
+            "displayDate": "2016-06-29T05:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T05:30:00.000Z",
+            "displayDate": "2016-06-29T05:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T06:00:00.000Z",
+            "displayDate": "2016-06-29T06:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T06:30:00.000Z",
+            "displayDate": "2016-06-29T06:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T07:00:00.000Z",
+            "displayDate": "2016-06-29T07:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T07:30:00.000Z",
+            "displayDate": "2016-06-29T07:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T08:00:00.000Z",
+            "displayDate": "2016-06-29T08:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T08:30:00.000Z",
+            "displayDate": "2016-06-29T08:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T09:00:00.000Z",
+            "displayDate": "2016-06-29T09:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T09:30:00.000Z",
+            "displayDate": "2016-06-29T09:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T10:00:00.000Z",
+            "displayDate": "2016-06-29T10:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T10:30:00.000Z",
+            "displayDate": "2016-06-29T10:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T11:00:00.000Z",
+            "displayDate": "2016-06-29T11:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T11:30:00.000Z",
+            "displayDate": "2016-06-29T11:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T12:00:00.000Z",
+            "displayDate": "2016-06-29T12:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T12:30:00.000Z",
+            "displayDate": "2016-06-29T12:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T13:00:00.000Z",
+            "displayDate": "2016-06-29T13:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T13:30:00.000Z",
+            "displayDate": "2016-06-29T13:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T14:00:00.000Z",
+            "displayDate": "2016-06-29T14:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T14:30:00.000Z",
+            "displayDate": "2016-06-29T14:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T15:00:00.000Z",
+            "displayDate": "2016-06-29T15:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T15:30:00.000Z",
+            "displayDate": "2016-06-29T15:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T16:00:00.000Z",
+            "displayDate": "2016-06-29T16:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T16:30:00.000Z",
+            "displayDate": "2016-06-29T16:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T17:00:00.000Z",
+            "displayDate": "2016-06-29T17:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T17:30:00.000Z",
+            "displayDate": "2016-06-29T17:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T18:00:00.000Z",
+            "displayDate": "2016-06-29T18:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T18:30:00.000Z",
+            "displayDate": "2016-06-29T18:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T19:00:00.000Z",
+            "displayDate": "2016-06-29T19:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T19:30:00.000Z",
+            "displayDate": "2016-06-29T19:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T20:00:00.000Z",
+            "displayDate": "2016-06-29T20:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T20:30:00.000Z",
+            "displayDate": "2016-06-29T20:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T21:00:00.000Z",
+            "displayDate": "2016-06-29T21:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T21:30:00.000Z",
+            "displayDate": "2016-06-29T21:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T22:00:00.000Z",
+            "displayDate": "2016-06-29T22:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T22:30:00.000Z",
+            "displayDate": "2016-06-29T22:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+      Object {
+        "segments": Array [
+          Object {
+            "date": "2016-07-03T23:00:00.000Z",
+            "displayDate": "2016-06-29T23:00:00.000Z",
+            "isStart": true,
+          },
+          Object {
+            "date": "2016-07-03T23:30:00.000Z",
+            "displayDate": "2016-06-29T23:30:00.000Z",
+            "isStart": false,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`Adapter: luxon getWeekViewHeader get all days of the week for the given date 1`] = `
+Array [
+  Object {
+    "date": "2016-06-27T00:00:00.000Z",
+    "day": 27,
+    "isFuture": false,
+    "isPast": true,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2016-06-28T00:00:00.000Z",
+    "day": 28,
+    "isFuture": false,
+    "isPast": false,
+    "isToday": true,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2016-06-29T00:00:00.000Z",
+    "day": 29,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2016-06-30T00:00:00.000Z",
+    "day": 30,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2016-07-01T00:00:00.000Z",
+    "day": 1,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2016-07-02T00:00:00.000Z",
+    "day": 2,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2016-07-03T00:00:00.000Z",
+    "day": 3,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+]
+`;
+
+exports[`Adapter: luxon getWeekViewHeader should allow the week start and end to be customised 1`] = `
+Array [
+  Object {
+    "date": "2018-07-20T00:00:00.000Z",
+    "day": 20,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-21T00:00:00.000Z",
+    "day": 21,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-22T00:00:00.000Z",
+    "day": 22,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-23T00:00:00.000Z",
+    "day": 23,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-24T00:00:00.000Z",
+    "day": 24,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-25T00:00:00.000Z",
+    "day": 25,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-26T00:00:00.000Z",
+    "day": 26,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-27T00:00:00.000Z",
+    "day": 27,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-28T00:00:00.000Z",
+    "day": 28,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": true,
+    "isWeekend": false,
+  },
+  Object {
+    "date": "2018-07-29T00:00:00.000Z",
+    "day": 29,
+    "isFuture": true,
+    "isPast": false,
+    "isToday": false,
+    "isWeekend": false,
+  },
+]
+`;
+
 exports[`Adapter: moment getAllDayWeekEvents should not throw when no params are passed 1`] = `Array []`;
 
 exports[`Adapter: moment getWeekView precision = "days" should allow the week start and end to be customised 1`] = `

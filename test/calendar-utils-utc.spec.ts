@@ -35,6 +35,7 @@ import {
 } from '../src/calendar-utils';
 import { adapterFactory as dateFnsAdapterFactory } from '../src/date-adapters/date-fns';
 import { adapterFactory as momentAdapterFactory } from '../src/date-adapters/moment';
+import { adapterFactory as luxonAdapterFactory } from '../src/date-adapters/luxon';
 
 dayjs.extend(maxPlugin);
 
@@ -54,6 +55,10 @@ const adapters = [
   {
     name: 'date-fns',
     adapter: dateFnsAdapterFactory(),
+  },
+  {
+    name: 'luxon',
+    adapter: luxonAdapterFactory(),
   },
   {
     name: 'moment',
